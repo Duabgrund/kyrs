@@ -1,0 +1,485 @@
+body, h2, h3, p {
+    margin: 0;
+}
+.greet {
+    background: linear-gradient(254.01deg, rgba(0, 0, 0, 0) 42.26%, #000000 98.09%), url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.greet-container {
+    width: 1300px;
+    margin: 0 auto;
+    color: white;
+}
+.greet-container h2 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 71px;
+    text-transform: uppercase;
+    width: 795px;
+    padding: 250px 0 40px;
+}
+.greet-container p {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    width: 595px;
+}
+.greet-bottom {
+    display: flex;
+    padding:  40px 0 200px;
+}
+.greet-bottom a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 243px;
+    height: 50px;
+    background: #1E5DBC;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.greet-bottom .greet-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.greet-links i {
+    font-size: 45px;
+    margin: 0 30px 0 50px;
+}
+.greet-links .greet-first {
+    font-size: 34px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Gothic A1", sans-serif;
+    margin-bottom: 10px;
+}
+
+.reasons {
+    background-color: #1E5DBC;
+}
+.reasons-container {
+    width: 1300px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    padding: 40px;
+    gap: 60px;
+}
+.reasons-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reasons-element img {
+    margin-right: 25px;
+}
+.reasons-left h3 {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.reasons-left p {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.description, .services, .work, .client, .questions, .appointment {
+    background-color: #F3F3F3;
+}
+.description-container {
+    width: 1300px;
+    margin: 0 auto ;
+    padding: 100px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.description-right {
+    width: 480px;
+    text-align: justify;
+}
+.title-blue {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #1E5DBC;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.title-white {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.title-text {
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #2B4448;
+}
+.title-text-white {
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: white;
+}
+.description-text {
+    margin: 10px 0 70px;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2B4448;
+}
+.services-container {
+    width: 1300px;
+    margin: 0 auto ;
+    padding: 100px 0 0;
+}
+.services-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+.services-cont .item {
+    text-align: center;
+    background-color: white;
+}
+.services-cont .item p {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #1E5DBC;
+}
+
+.work {
+    padding: 150px 0 0;
+}
+.work-background {
+    background-image: url(images/latest-work.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.work-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.work-card {
+    background-color: white;
+    width: 450px;
+    padding: 40px 40px 20px 40px;
+}
+.work-text {
+    margin: 10px 0 30px;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2B4448;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+.work-card ul li {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2B4448;
+    margin-bottom: 10px;
+
+}
+.work-card ul li i {
+    color: #1E5DBC;
+    margin-right: 5px;
+}
+
+.client-container, .questions-container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.client-cont {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.client-comment {
+    background-color: white;
+    width: 340px;
+    padding: 30px;
+}
+.client-comment i {
+    font-size: 38px;
+    color: #1E5DBC;
+}
+.client-comment .client-desc {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2B4448;
+    margin: 20px 0;
+}
+.client-comment .client-bottom {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+.client-bottom img {
+    margin-right: 20px;
+}
+.client-name {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1E5DBC;
+}
+.client-city {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2B4448;
+}
+
+.app-background {
+    background-color: #1E5DBC;
+    color: white;
+}
+.app-container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 100px 0;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-left {
+    width: 500px;
+}
+.app-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+.app-bottom i {
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #2b4448;
+}
+.app-left .sub-title {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.app-name {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.app-city {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.app-right {
+    width: 450px;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app-right form {
+    margin: 40px auto 0;
+}
+.title-new {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B4448;
+}
+.app-right input, .app-right textarea {
+    width: 350px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.button {
+    width: 250px;
+    background-color: #2b4448;
+    color: white;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.questions-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+.question-div {
+    width: 50%; 
+    box-sizing: border-box; 
+    padding: 10px;    
+}
+.question {
+    border-left: 5px solid #1E5DBC;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2B4448;
+    background-color: white;
+    padding: 20px;
+}
+.answer {
+    border-top: 5px solid #1E5DBC;
+    display: none;
+    margin-bottom: 20px;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2B4448;
+    background-color: white;
+    padding: 20px;
+    opacity: 0;
+    animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    background-color: #1E5DBC;
+}
+nav ul {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px;
+}
+nav ul li a {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+nav ul li a:hover {
+    background-color: white;
+    color: #1E5DBC;
+}
+
+footer {
+    background-color: #1E5DBC;
+}
+footer p {
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    padding: 30px;
+    color: #FFFFFF;
+}
